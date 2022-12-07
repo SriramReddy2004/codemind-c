@@ -2,11 +2,10 @@
 
 int main(){
     
-    int n,i,j;
+    int n,j,i;
     scanf("%d",&n);
     for(i=1;i<=n;i++){
-        for(j=1;j<=(n-i);j++) printf(" ");
-        for(j=1;j<=((i*2)-1);j++) printf("%d",i);
+        for(j=n;j>=1;j--) printf("%d ",j);
         printf("
 ");
     }
