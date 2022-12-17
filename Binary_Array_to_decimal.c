@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<math.h>
+
+int main(){
+
+    int n,i,sum=0;
+    scanf("%d",&n);
+    int a[n],j=n-1;
+    for(i=0;i<n;i++){
+      scanf("%d",&a[i]);
+      sum+=a[i]*pow(2,j--);
+    }
+    printf("%d",sum);
+
+
+    return 0;
+}
