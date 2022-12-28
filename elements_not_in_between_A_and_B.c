@@ -2,7 +2,7 @@
 
 int main(){
 
-    int n,i,j,k,a,b,t=0;
+    int n,i,a,b,t=0;
     scanf("%d",&n);
     int arr[n];
     for(i=0;i<n;i++) scanf("%d",&arr[i]);
